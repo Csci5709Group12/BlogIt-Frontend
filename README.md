@@ -1,1 +1,1 @@
-# BlogIt-Frontend
+# Frontend

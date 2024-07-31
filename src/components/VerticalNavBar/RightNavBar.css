@@ -1,0 +1,29 @@
+.right-nav {
+    position: fixed;
+    right: 0;
+    top: 60px;
+    /* Adjust to ensure it doesn't overlap with the top navbar */
+    width: 250px;
+    height: calc(100vh - 60px);
+    background-color: #f8f9fa;
+    padding: 20px;
+    box-shadow: -2px 0 5px rgba(0, 0, 0, 0.1);
+    overflow-y: auto;
+}
+
+.right-nav-title {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.right-nav-description {
+    font-size: 1em;
+    color: #333;
+}
+
+.analysis-button {
+    margin-top: 20px;
+    background-color: #383F51;
+    color: #ffffff;
+    border: none;
+}

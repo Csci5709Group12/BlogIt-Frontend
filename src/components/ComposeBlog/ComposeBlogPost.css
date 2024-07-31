@@ -1,0 +1,188 @@
+.ql-toolbar {
+  text-align: left;
+}
+
+.compose-blog-post-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  min-height: 100vh;
+  margin-top: 40px;
+  background-color: #ffffff !important;
+  color: #ffffff;
+}
+
+.card-body {
+  border: 1px solid #383F51;
+}
+
+.blog-title {
+  margin-bottom: 20px;
+  font-size: 2rem;
+  color: #ffffff;
+}
+
+.title-card {
+  width: 80%;
+  max-width: 800px;
+  margin: 0 auto;
+  background-color: #DDDBF1 !important;
+}
+
+.post-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.cover-btn {
+  background-color: #383F51 !important;
+  border-color: #3C4F76 !important;
+  color: #ffffff !important;
+  align-self: flex-start;
+  margin-bottom: 20px;
+}
+
+.blog-title-form {
+  width: 100%;
+  margin-bottom: 20px;
+  background-color: #ffffff !important;
+  color: #383F51 !important;
+  border: 1px solid #383F51 !important;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.title-form:hover {
+  border: 1px solid #616161 !important;
+}
+
+.tag-form {
+  width: 100%;
+  margin-bottom: 20px;
+  background-color: #ffffff !important;
+  color: #383F51 !important;
+  border: 1px solid #383F51 !important;
+}
+
+.editor {
+  width: 100%;
+  height: 300px;
+  margin-bottom: 20px;
+  background-color: #ffffff !important;
+}
+
+.editor .ql-container {
+  background-color: #ffffff !important;
+  border: 1px solid #383F51 !important;
+  color: #383F51 !important;
+}
+
+.editor .ql-editor {
+  background-color: #ffffff !important;
+  color: #383F51 !important;
+}
+
+.editor:hover {
+  border-color: #616161;
+}
+
+@media (max-width: 576px) {
+  .title-card {
+    width: 100%;
+  }
+
+  .blog-title {
+    font-size: 1.5rem;
+  }
+
+  .editor {
+    height: 200px;
+  }
+
+  .cover-btn,
+  .publish-btn,
+  .save-draft-btn {
+    width: 100%;
+    text-align: center;
+  }
+}
+
+.publish-btn, .save-draft-btn {
+  background-color: #3C4F76 !important;
+  border-color: #383F51 !important;
+  color: #ffffff !important;
+}
+
+.cover-btn:hover,
+.publish-btn:hover,
+.save-draft-btn:hover {
+  background-color: #383F51 !important;
+  border-color: #383F51 !important;
+  color: #DDDBF1 !important;
+}
+
+.selected-image-container {
+  position: relative;
+  margin-top: 10px;
+}
+
+.selected-image {
+  width: 20px;
+  height: 30px;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.image-buttons {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+}
+
+.thumbnail {
+  width: 136px;
+  height: 76px;
+  margin-bottom: 20px;
+}
+
+.button-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  width: 100%;
+  margin-top: 35px;
+}
+
+.compose-blog-post-container .title-card .post-form .publish-btn,
+.compose-blog-post-container .title-card .post-form .save-draft-btn {
+  flex: 1;
+  width: 120px;
+  margin-top: 0;
+}
+
+.MuiAutocomplete-listbox {
+  background-color: #DDDBF1 !important;
+}
+
+.MuiInputBase-root {
+  background-color: #ffffff !important;
+  color: #383F51 !important;
+  border: 1px solid #383F51 !important;
+}
+
+.MuiInputBase-root:hover {
+  border-color: #616161;
+}
+
+.MuiAutocomplete-inputRoot {
+  background-color: #ffffff !important;
+  color: #383F51 !important;
+  border: 1px solid #383F51 !important;
+}
+
+.MuiAutocomplete-inputRoot:hover {
+  border-color: #616161;
+}

@@ -1,0 +1,11 @@
+.community-detail-container {
+  margin-left: 200px;
+  /* Adjust based on VerticalNavBar width */
+  margin-right: 250px;
+  /* Adjust based on RightNavBar width */
+  padding-top: 20px;
+}
+
+.blog-feed-container {
+  margin-top: 20px;
+}
